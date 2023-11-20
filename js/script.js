@@ -34,3 +34,12 @@ console.log(greet);
 greet = greet + " Come stai?";
 console.log(greet);
 
+
+// Assegna due numeri a due variabili
+let numero1 = 10;
+let numero2 = 5;
+
+// Confronta se il primo numero è maggiore del secondo
+let comparison = numero1 > numero2;
+
+console.log(comparison);
