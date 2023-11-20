@@ -21,4 +21,16 @@ name = "Marco";
 
 // esercizio 4
 
-let greet = "ciao, mondo!"
+let greet = "ciao, mondo!";
+console.log(greet);
+
+// esercizio 4b
+
+// let greet = "come stai, mondo?";
+// console.log(greet);
+
+// esercizio 4c
+
+greet = greet + " Come stai?";
+console.log(greet);
+
