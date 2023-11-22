@@ -28,3 +28,16 @@ Modifica il valore della variabile `greet` in modo da ottenere la stringa "Ciao,
 
  **Esercizio 1**
 Crea una variabile `comparison` e assegnale il risultato del confronto tra due numeri per verificare se il primo numero è maggiore del secondo. Stampa sulla console il valore di `comparison`
+
+**Esercizio 2**
+
+
+**Esercizio 3**
+Assegna alla variabile `comparison` il risultato del confronto tra un numero e una stringa (che rappresenta un numero) per verificare se sono uguali. Stampa sulla console il valore di `comparison`
+
+
+
+
+
+
+

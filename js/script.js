@@ -40,6 +40,38 @@ let numero1 = 10;
 let numero2 = 5;
 
 // Confronta se il primo numero è maggiore del secondo
-let comparison = numero1 > numero2;
+// let comparison = numero1 > numero2;
 
 console.log(comparison);
+
+
+// Esercizio 2
+
+// Due stringhe da confrontare
+let stringa1 = "Prima Stringa";
+let stringa2 = "Seconda Stringa";
+
+// Confronto tra le due stringhe
+let comparison = (stringa1 === stringa2);
+
+// Stampa il valore di comparison sulla console
+console.log(comparison);
+
+
+// esercizio 3 //
+
+// Assegna un numero a una variabile
+let numero = 42;
+
+// Assegna una stringa che rappresenta un numero a un'altra variabile
+let stringaNumero = "42";
+
+// Converte la stringa in un numero
+let numeroDaStringa = parseInt(stringaNumero);
+
+// Confronta il numero con il numero ottenuto dalla conversione della stringa
+let confronto = numero === numeroDaStringa;
+
+// Stampa il risultato del confronto sulla console
+console.log(confronto);
+
