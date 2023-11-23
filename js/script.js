@@ -80,3 +80,20 @@ console.log(confronto);
 for (let i = 1; i <= 42; i++) {
     console.log(i);
 }
+
+//Esercizio 1/B
+
+for (let i = 42; i >= 1; i--) {
+    console.log(i);
+}
+
+
+//**Esercizio 1/A** 
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(numbers)
+
+//**Esercizio 1/B**  
+
+const fruits = ["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"];
+console.log(fruits)
