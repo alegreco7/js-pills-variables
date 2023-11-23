@@ -75,3 +75,8 @@ let confronto = numero === numeroDaStringa;
 // Stampa il risultato del confronto sulla console
 console.log(confronto);
 
+//esercizio1/a
+
+for (let i = 1; i <= 42; i++) {
+    console.log(i);
+}
