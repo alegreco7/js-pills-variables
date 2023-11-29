@@ -49,10 +49,34 @@ Definisci un array contenente 8 numeri interi e memorizzalo nella costante `numb
 Definisci un array contenente le stringhe che seguono e memorizzalo nella costante `fruits`: 
 ```
 mela, banana, pesca, pera, albicocca, mango, kiwi, papaya
+
+**Esercizio 1/C**  
+Stampa in console il numero di elementi che costituiscono l'array `fruits`
 ```
 
 
 
+**Esercizio 2/A**
+1. Chiedi all'utente un numero intero e memorizzalo nella costante numOfElements
+2. Crea un array numbers e riempilo con i numeri interi da 1 a numOfElements
+3. Stampa in console l'array numbers e il numero di elementi di cui si compone
 
 
+**Esercizio 2/B** 
+Calcola la somma di tutti i numeri presenti nell'array numbers dell'esercizio 2/A
 
+
+Trova il valore massimo di tutti i numeri presenti nell'array numbers dell'esercizio 2/A
+
+
+**Esercizio 1/A**
+Definire una funzione che stampi la stringa 'Ciao Mondo'
+
+**Esercizio 1/B**
+Richiamare la funzione definita prima
+
+**Esercizio 1/A**
+Dichiara una funzione chiamata getOneStringFromTwo che prenda come argomenti due stringhe e ritorni come un'unica stringa formata dalle due stringhe separate da uno spazio.
+
+Esercizio 1/B
+Invoca la funzione dichiarata nell'esercizio 1/A passandole due stringhe a piacere e stampa in console la stringa ottenuta.

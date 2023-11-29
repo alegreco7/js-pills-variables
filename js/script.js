@@ -90,10 +90,116 @@ for (let i = 42; i >= 1; i--) {
 
 //**Esercizio 1/A** 
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+//const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 console.log(numbers)
 
 //**Esercizio 1/B**  
 
 const fruits = ["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"];
 console.log(fruits)
+
+
+//**Esercizio 1/C**
+
+console.log("Il numero di elementi in fruits è:", fruits.length);
+
+
+
+//**Esercizio 2/A**
+
+// Passo 1: Chiedi all'utente un numero intero e memorizzalo nella costante numOfElements
+const numOfElements = parseInt(prompt("Inserisci un numero intero:"));
+
+// Passo 2: Crea un array numbers e riempilo con i numeri interi da 1 a numOfElements
+const numbers = [];
+for (let i = 1; i <= numOfElements; i++) {
+    numbers.push(i);
+}
+
+// Passo 3: Stampa in console l'array numbers e il numero di elementi di cui si compone
+console.log("Array di numeri:", numbers);
+console.log("Numero di elementi:", numOfElements);
+
+
+// ************************ //
+
+
+//**Esercizio 2/B** 
+
+// Array numbers generato nell'Esercizio 2/A
+//const numbers = [/* inserisci qui i numeri generati */];
+
+// Inizializza una variabile per la somma
+let sum = 0;
+
+// Itera attraverso gli elementi dell'array e aggiungi ciascun elemento alla somma
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+// Stampa il risultato della somma in console
+console.log("La somma di tutti i numeri nell'array è:", sum);
+
+// **Esercizio 2/C**
+
+
+// Array numbers generato nell'Esercizio 2/A
+//const numbers = [/* inserisci qui i numeri generati */];
+
+// Trova il valore massimo utilizzando Math.max e lo spread operator
+const maxValue = Math.max(...numbers);
+
+// Stampa il valore massimo in console
+console.log("Il valore massimo nell'array è:", maxValue);
+
+// ************************ //
+
+function stampaCiaoMondo() {
+    console.log('Ciao Mondo');
+  }
+  
+// ************************ //
+
+function sommaNumeri(numero1, numero2) {
+    let somma = numero1 + numero2;
+    return somma;
+}
+
+// ************************ //
+
+// Definizione della funzione
+function sommaNumeri(numero1, numero2) {
+    let somma = numero1 + numero2;
+    return somma;}
+  
+// Chiamata alla funzione e assegnazione del risultato a una variabile
+let risultatoSomma = sommaNumeri(10, 20);
+
+// Mostrare il risultato
+console.log('Il risultato della somma è:', risultatoSomma);
+  
+// ************************ //
+
+function getOneStringFromTwo(string1, string2) {
+    // Unisci le due stringhe con uno spazio e restituisci il risultato
+    return `${string1} ${string2}`;
+  }
+  
+  // Esempio di utilizzo della funzione
+  //const result = getOneStringFromTwo("Hello", "World");
+  console.log(result);  // Stampa: Hello World
+  
+// ************************ //
+
+// Dichiarazione della funzione
+function getOneStringFromTwo(string1, string2) {
+    return `${string1} ${string2}`;
+  }
+  
+  // Chiamata della funzione con due stringhe a piacere
+  const result = getOneStringFromTwo("Buongiorno", "mondo");
+  
+  // Stampa del risultato in console
+  console.log(result);  // Stampa: Buongiorno mondo
+
+// ************************ //
