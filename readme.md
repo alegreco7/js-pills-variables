@@ -80,3 +80,15 @@ Dichiara una funzione chiamata getOneStringFromTwo che prenda come argomenti due
 
 Esercizio 1/B
 Invoca la funzione dichiarata nell'esercizio 1/A passandole due stringhe a piacere e stampa in console la stringa ottenuta.
+
+Esercizio 1/A
+Definire un timer che dopo 3 secondi mostri un alert con scritto "Ciao a tutti"
+
+Esercizio 2/A
+Ad ogni secondo incrementare un contatore che parte da 0 di uno e mostrarlo con i console.log
+
+Esercizio 1/A
+Definite un oggetto persona con nome e cognome
+
+Esercizio 1/B
+Richiamare la prorpietà nome dell'oggetto definito nell'esercizio precedente

@@ -203,3 +203,47 @@ function getOneStringFromTwo(string1, string2) {
   console.log(result);  // Stampa: Buongiorno mondo
 
 // ************************ //
+
+// Definisci la funzione da eseguire dopo 3 secondi
+function mostraMessaggio() {
+    alert("Ciao a tutti");
+  }
+  
+  // Imposta il timer con setTimeout
+  // Il primo argomento è la funzione da eseguire
+  // Il secondo argomento è il periodo di tempo in millisecondi (3 secondi in questo caso)
+  setTimeout(mostraMessaggio, 3000);
+  
+  // ************************ //
+
+  let contatore = 0;
+
+// Definisci la funzione da eseguire ad ogni intervallo
+function incrementaContatore() {
+  contatore++;
+  console.log(contatore);
+}
+
+// Imposta l'intervallo con setInterval
+// Il primo argomento è la funzione da eseguire
+// Il secondo argomento è il periodo di tempo in millisecondi (1000 millisecondi = 1 secondo)
+let intervallo = setInterval(incrementaContatore, 1000);
+
+// Puoi fermare l'intervallo dopo un certo numero di secondi (ad esempio, 10 secondi) con un altro setTimeout
+setTimeout(function() {
+  clearInterval(intervallo); // Ferma l'intervallo
+}, 10000);
+
+// ************************ //
+
+let persona = {
+  nome: "ale",
+  cognome: "greco"
+};
+
+// Accesso alle proprietà dell'oggetto persona
+console.log("Nome: " + persona.nome);
+console.log("Cognome: " + persona.cognome);
+
+// ************************ //
+
